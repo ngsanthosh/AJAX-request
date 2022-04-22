@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ajax</title>
+  <script type="text/javascript" src="./script.js"></script>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <form id="userform">
+    <label for="firstname">FirstName</label>
+    <input type="text" id="firstname" required placeholder="FirstName" /><br /><br />
+    <label for="lastname">LastName</label>
+    <input type="text" id="lastname" placeholder="LastName" /><br /><br />
+    <label for="place">City</label>
+    <input type="text" id="place" placeholder="City" /><br /><br />
+    <button onclick="submitUser()" type="button">submit</button>
+  </form>
+  <br />
+  <table id="usertable">
+    <thead>
+      <th>FirstName</th>
+      <th>LastName</th>
+      <th>City</th>
+      <th>Delete</th>
+    </thead>
+    <tbody id="userbody"></tbody>
+  </table>
+</body>
+
+</html>

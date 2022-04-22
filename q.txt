@@ -1,0 +1,25 @@
+req/res everythings
+zoho invoice api 
+whatsapp and instagram api working
+
+access modifiers
+inheritance
+abstraction
+interface
+wrapper class
+adapter class
+serializable
+localization
+internationalization - https://www.javatpoint.com/internationalization-in-java
+web security
+
+auth and scope
+
+html, css, js 
+chess 
+calculator 
+form - field level and form level validation 
+ajax 
+zoho invoice hack 
+anamoly detectivity 
+
